@@ -7,6 +7,5 @@ export default ({
     siteData // 站点元数据
   }) => {
     // ...做一些其他的应用级别的优化
-    colorConsole('primary', 'options', options);
-    colorConsole('coral', 'router', router);
+    colorConsole('coral', 'Translated by 大笑 😄', 'Thanks');
   }

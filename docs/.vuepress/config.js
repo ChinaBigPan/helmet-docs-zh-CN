@@ -1,14 +1,14 @@
 module.exports = {
-	title: "Vuepress 译文文档模板",
-	description: "",
+	title: "Helmet",
+	description: "基于安全考虑的Express/Koa的HTTP响应头设置库",
 	configureWebpack: {
 		resolve: {
 			alias: {
-				"@img": "/docs_cn/images/"
+				"@img": "/helmet-docs-zh-CN/images/"
 			}
 		}
 	},
-	base: "/docs_cn/",
+	base: "/helmet-docs-zh-CN/",
 	markdown: {
 		lineNumbers: true,
 		anchor: {
@@ -19,23 +19,6 @@ module.exports = {
 			md.use(require("markdown-it-anchor"));
 		}
 	},
-	plugins: [
-		"@vuepress/active-header-links",
-		"@vuepress/back-to-top",
-		"@vuepress/last-updated",
-		"@vuepress/nprogress",
-		"vuepress-plugin-smooth-scroll",
-		"@vuepress/medium-zoom",
-		[
-			"redirect",
-			{
-				// 提供多语言重定向功能
-				// 它会自动从 `/foo/bar/` 定向到 `/:locale/foo/bar/`，如果对应的页面存在
-				locales: true,
-				storage: true // 保存最后一次访问的结果到 `localStorage`，供下次重定向使用
-			}
-		]
-	],
 	themeConfig: {
 		displayAllHeaders: true, // 默认值：false
 		smoothScroll: true,
@@ -43,19 +26,19 @@ module.exports = {
 			{
 				text: "首页",
 				link: "/"
+			},
+			{
+			    text: "Github",
+			    link: "https://github.com/helmetjs/helmet"
 			}
-			// {
-			//     text: "Github",
-			//     link: " "
-			// }
 		],
-		sidebar: [
-			// {
-			//     title: "安装",
-			//     path: "/routes/install.html",
-			//     sidebarDepth: 2
-			// }
-		],
+		sidebar: {
+			'/routes/': [''],
+			'/routes/middleware/': [
+				'',
+				'content-security-policy'
+			]
+		},
 		lastUpdated: "上次更新",
 		repo: ""
 	},
