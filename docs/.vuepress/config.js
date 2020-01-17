@@ -14,7 +14,7 @@ module.exports = {
 	},
 	themeConfig: {
 		activeHeaderLinks: true,
-		displayAllHeaders: true, // 默认值：false
+		displayAllHeaders: false, // 默认值：false
 		smoothScroll: true,
 		nav: [
 			{
@@ -34,7 +34,12 @@ module.exports = {
 			'/routes/install/': [''],
 			'/routes/middleware/': [
 				'',
-				'content-security-policy'
+				'content-security-policy',
+				'crossdomain',
+				'dns-prefetch-control',
+				'expect-ct',
+				'feature-policy',
+				'frameguard'
 			]
 		},
 		lastUpdated: "上次更新",

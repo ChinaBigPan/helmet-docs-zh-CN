@@ -83,5 +83,9 @@ Helmet是14个设置HTTP响应头的小型中间件的集合。在默认情况�
 
 | 模块(Module) | 默认启用 |
 |-----------|---------|
-| [Content-Security-Policy](/routes/middleware/content-security-policy.html)用于设置内容安全策略 |      |    
-
+| [contentSecurityPolicy](/routes/middleware/content-security-policy.html)用于设置内容安全策略 ||  
+| [crossdomain](/routes/middleware/crossdomain.html)用于处理Adobe产品的跨域请求 ||
+| [dnsPrefetchControl](/routes/middleware/dns-prefetch-control.html)用于控制浏览器的DNS预解析 |✅|
+| [expectCt](/routes/middleware/expect-ct.html)用于处理证书的透明度 ||
+| [featurePolicy](/routes/middleware/feature-policy.html)用于限制浏览器可用的功能 ||
+| [frameguard](/routes/middleware/frameguard.html)用于阻止点击劫持 |✅|
