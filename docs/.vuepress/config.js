@@ -10,22 +10,20 @@ module.exports = {
 	},
 	base: "/helmet-docs-zh-CN/",
 	markdown: {
-		lineNumbers: true,
-		anchor: {
-			permalink: false
-		},
-		extendMarkdown: md => {
-			// 使用更多的markdown-it插件
-			md.use(require("markdown-it-anchor"));
-		}
+		lineNumbers: true
 	},
 	themeConfig: {
+		activeHeaderLinks: true,
 		displayAllHeaders: true, // 默认值：false
 		smoothScroll: true,
 		nav: [
 			{
 				text: "首页",
-				link: "/"
+				link: "/routes/install/"
+			},
+			{
+				text: '文档',
+				link: "/routes/middleware/"
 			},
 			{
 			    text: "Github",
@@ -33,7 +31,7 @@ module.exports = {
 			}
 		],
 		sidebar: {
-			'/routes/': [''],
+			'/routes/install/': [''],
 			'/routes/middleware/': [
 				'',
 				'content-security-policy'

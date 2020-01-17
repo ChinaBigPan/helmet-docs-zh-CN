@@ -4,7 +4,7 @@ heroImage: /images/helmet-logo.svg
 heroText: Helmet
 tagline: 基于安全考虑的Express/Koa的HTTP响应头设置库
 actionText: 3.21.2 →
-actionLink: /routes/
+actionLink: /routes/install/
 features:
     - title: 
       details: 
