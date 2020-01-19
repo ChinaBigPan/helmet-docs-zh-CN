@@ -89,3 +89,7 @@ Helmet是14个设置HTTP响应头的小型中间件的集合。在默认情况�
 | [expectCt](/routes/middleware/expect-ct.html)用于处理证书的透明度 ||
 | [featurePolicy](/routes/middleware/feature-policy.html)用于限制浏览器可用的功能 ||
 | [frameguard](/routes/middleware/frameguard.html)用于阻止点击劫持 |✅|
+| [hidePoweredBy](/routes/middleware/hide-powered-by.html)移除`X-Powered-By`响应头 |✅|
+| [hsts](/routes/middleware/hsts.html)用于设置`HTTP Strict Transport Security` |✅|
+| [ieNoOpen](/routes/middleware/ie-no-open.html)为IE8以上浏览器设置`X-Download-Options` |✅|
+| [noCache](/routes/middleware/no-cache.html) ||

@@ -12,3 +12,8 @@ title: 中间件总览
 | [expectCt](https://helmetjs.github.io/docs/expect-ct/)用于处理证书的透明度 ||
 | [featurePolicy](https://helmetjs.github.io/docs/feature-policy/)用于限制浏览器可用的功能 ||
 | [frameguard](https://helmetjs.github.io/docs/frameguard/)用于阻止点击劫持 |✅|
+| [hidePoweredBy](https://helmetjs.github.io/docs/hide-powered-by/) |✅|
+| <Badge text='已废弃' vertical='middle' type='error' /> [hpkp](https://helmetjs.github.io/docs/hpkp/)  文档就不做翻译了  |  |
+| [hsts](https://helmetjs.github.io/docs/hsts/)用于设置`HTTP Strict Transport Security` |✅|
+| [ieNoOpen](https://helmetjs.github.io/docs/ienoopen/)为IE8以上浏览器设置`X-Download-Options` |✅|
+| [noCache](https://helmetjs.github.io/docs/nocache/) ||

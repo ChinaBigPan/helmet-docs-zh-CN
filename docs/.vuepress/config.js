@@ -2,11 +2,7 @@ module.exports = {
 	title: "Helmet",
 	description: "基于安全考虑的Express/Koa的HTTP响应头设置库",
 	configureWebpack: {
-		resolve: {
-			alias: {
-				"@img": "/helmet-docs-zh-CN/images/"
-			}
-		}
+		resolve: {}
 	},
 	base: "/helmet-docs-zh-CN/",
 	markdown: {
@@ -39,7 +35,11 @@ module.exports = {
 				'dns-prefetch-control',
 				'expect-ct',
 				'feature-policy',
-				'frameguard'
+				'frameguard',
+				'hide-powered-by',
+				'hsts',
+				'ie-no-open',
+				'no-cache'
 			]
 		},
 		lastUpdated: "上次更新",

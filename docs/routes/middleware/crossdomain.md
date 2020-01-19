@@ -14,7 +14,7 @@ title: crossdomain
 
 Adobe Flash和Adobe Acrobat可以从您的域或是其他站点（换句话说，跨域）加载内容。在少数情况下，这可能会导致意外的数据泄露或额外的流量使用。
 
-## 响应头
+## Header详解
 
 `X-Permitted-Cross-Domain-Policies`告诉Flash和Acrobat可以使用那些跨域策略。如果不希望它们从您的域中加载数据，请将它的值设置为`none`。请看示例：
 

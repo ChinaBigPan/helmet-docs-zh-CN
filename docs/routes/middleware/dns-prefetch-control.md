@@ -20,7 +20,7 @@ title: dns-prefetch-control
 - [“DNS Prefetching” on Chromium docs](https://dev.chromium.org/developers/design-documents/dns-prefetching)
 - [“Prefetching”](https://www.keycdn.com/support/prefetching/)
 
-## 响应头
+## Header详解
 
 `X-DNS-Prefetch-Control`告诉浏览器是否启用DNS预解析。开启它的时候不一定会起作用——不是所有浏览器都支持它——但是关闭的话则会在所有浏览器禁用DNS预解析。
 

@@ -24,7 +24,7 @@ CSP模块并不能防止特定类型的攻击。最主要的是：您一定不�
 - [Cross-site Scripting on OWASP](https://owasp.org/www-community/attacks/xss/)
 - [How does a tracking pixel work?](https://www.quora.com/How-does-a-tracking-pixel-work)
 
-## Header
+## Header详解
 
 关于这些注入攻击，我们需要面临的一个棘手的问题是浏览器无法区分正常的代码和恶意代码。真实情况是，除非您定义了内容安全策略（Content-Security-Policy），否则浏览器确实是无法区分的。
 
