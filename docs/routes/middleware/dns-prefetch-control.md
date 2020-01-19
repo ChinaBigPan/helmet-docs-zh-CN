@@ -8,7 +8,7 @@ title: dns-prefetch-control
 
 简介：该中间件允许您通过设置`X-DNS-Prefetch-Control`响应头来禁用浏览器的DNS预解析。
 
-## 恶意攻击
+## 攻击方式
 
 当您访问一个URL时，您的浏览器会去查找域的IP地址。举个例子，它必须将`example.com`解析为`93.184.216.34`。这个过程就叫做DNS解析。
 

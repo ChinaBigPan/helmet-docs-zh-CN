@@ -8,7 +8,7 @@ title: HSTS
 
 简介：通过设置`Strict-Transport-Security`响应头来强制使用HTTPS。
 
-## 恶意攻击
+## 攻击方式
 
 虽然有一些瑕疵，但HTTPS是一种安全的协议。而HTTP就非常糟糕了。“纯”HTTP协议很容易受到中间人攻击，因为所有的发送内容都没有经过加密。我认为HTTP就是一种“裸奔”。
 

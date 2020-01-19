@@ -16,4 +16,6 @@ title: 中间件总览
 | <Badge text='已废弃' vertical='middle' type='error' /> [hpkp](https://helmetjs.github.io/docs/hpkp/)  文档就不做翻译了  |  |
 | [hsts](https://helmetjs.github.io/docs/hsts/)用于设置`HTTP Strict Transport Security` |✅|
 | [ieNoOpen](https://helmetjs.github.io/docs/ienoopen/)为IE8以上浏览器设置`X-Download-Options` |✅|
-| [noCache](https://helmetjs.github.io/docs/nocache/) ||
+| [noCache](https://helmetjs.github.io/docs/nocache/)用于禁用客户端缓存 ||
+| [noSniff](https://helmetjs.github.io/docs/dont-sniff-mimetype/)用于禁用浏览器嗅探 |✅|
+| [referrerPolicy](https://helmetjs.github.io/docs/referrer-policy)用于隐藏`Referrer`报头 | |

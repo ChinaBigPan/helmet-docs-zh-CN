@@ -8,7 +8,7 @@ title: X-Download-Options
 
 简介：该中间件设置`X-Download-Options`报头以阻止IE浏览器下载您网站中的内容。
 
-## 恶意攻击
+## 攻击方式
 
 这种攻击只会影响老版本的IE浏览器。
 

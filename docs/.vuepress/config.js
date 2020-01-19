@@ -39,7 +39,9 @@ module.exports = {
 				'hide-powered-by',
 				'hsts',
 				'ie-no-open',
-				'no-cache'
+				'no-cache',
+				'no-sniff',
+				'referrer-policy'
 			]
 		},
 		lastUpdated: "上次更新",

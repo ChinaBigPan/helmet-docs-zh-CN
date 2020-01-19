@@ -93,3 +93,5 @@ Helmet是14个设置HTTP响应头的小型中间件的集合。在默认情况�
 | [hsts](/routes/middleware/hsts.html)用于设置`HTTP Strict Transport Security` |✅|
 | [ieNoOpen](/routes/middleware/ie-no-open.html)为IE8以上浏览器设置`X-Download-Options` |✅|
 | [noCache](/routes/middleware/no-cache.html) ||
+| [noSniff](/routes/middleware/no-sniff.html) |✅|
+| [referrerPolicy](/routes/middleware/referrer-policy.html) ||
