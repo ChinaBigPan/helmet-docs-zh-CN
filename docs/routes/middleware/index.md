@@ -19,3 +19,4 @@ title: 中间件总览
 | [noCache](https://helmetjs.github.io/docs/nocache/)用于禁用客户端缓存 ||
 | [noSniff](https://helmetjs.github.io/docs/dont-sniff-mimetype/)用于禁用浏览器嗅探 |✅|
 | [referrerPolicy](https://helmetjs.github.io/docs/referrer-policy)用于隐藏`Referrer`报头 | |
+| [xssFilter](https://helmetjs.github.io/docs/xss-filter/)添加一些XSS保护措施 |✅|

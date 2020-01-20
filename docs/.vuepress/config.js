@@ -41,7 +41,8 @@ module.exports = {
 				'ie-no-open',
 				'no-cache',
 				'no-sniff',
-				'referrer-policy'
+				'referrer-policy',
+				'xss-filter'
 			]
 		},
 		lastUpdated: "上次更新",
