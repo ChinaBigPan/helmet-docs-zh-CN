@@ -16,7 +16,7 @@ title: Frameguard
 
 假设我有一个名叫Facepamphlet的社交网站。我想让你点击下面这个<button>I Love this</button>按钮。
 
-![image](/images/frameguard-target-page-01.png)
+![image](/helmet-docs-zh-CN/images/frameguard-target-page-01.png)
 
 很显然，我作为一个受过教育的人，你让我点哪个我就点哪个那不是很没有面子？
 
@@ -24,11 +24,11 @@ title: Frameguard
 
 差不多像这样的页面：
 
-![image](/images/frameguard-malicious-hidden-02.png)
+![image](/helmet-docs-zh-CN/images/frameguard-malicious-hidden-02.png)
 
 于是你点击了这个链接，但是你不知道的是，同时被点击的还有一个被隐藏起来的`iframe`。
 
-![image](/images/frameguard-malicious-shown-03.png)
+![image](/helmet-docs-zh-CN/images/frameguard-malicious-shown-03.png)
 
 这就是点击劫持。
 
