@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/helmet-logo.svgs
+heroImage: /images/helmet-logo.svg
 heroText: Helmet
 tagline: 基于安全考虑的Express/Koa的HTTP响应头设置库
 actionText: v 3.21.2 →
