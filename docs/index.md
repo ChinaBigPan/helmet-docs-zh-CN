@@ -13,7 +13,7 @@ meta:
     - name: feversion
       content: v 3.21.2
     - name: fetags
-      content: "[{'kind': 'node', 'text': 'Node.js'}, { 'kind': 'html', 'text': '响应头' }]"
+      content: "[{'kind': 'iconNodejs', 'text': 'Node.js'}, {'kind': 'iconhtml', 'text': '响应头'}]"
 features:
     - title:
       details:
