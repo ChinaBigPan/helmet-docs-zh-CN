@@ -2,6 +2,8 @@
 title: 安装
 ---
 
+<febeacon />
+
 ## 快速开始
 
 如果您用的是**Express**运行`npm install helmet --save`，接下来，在您的文件中：
